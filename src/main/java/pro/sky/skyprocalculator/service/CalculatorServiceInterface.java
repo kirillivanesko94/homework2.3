@@ -1,7 +1,6 @@
-package pro.sky.skyprocalculator;
+package pro.sky.skyprocalculator.service;
 
 public interface CalculatorServiceInterface {
-    String hello();
     String answerHello();
     Integer getSum(Integer number1, Integer number2);
     Integer getMinus(Integer number1, Integer number2);
